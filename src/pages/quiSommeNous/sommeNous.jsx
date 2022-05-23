@@ -19,8 +19,8 @@ const QuiSommeNous = () => {
               </div>
 
 
-              <section className="nous">
-                  <div className="row">
+              <section className="nous py-5">
+                  <div className="row pb-5">
                     <div className="col-md-6">
                       <p>
                         <em className='fw-bold'>PHC Limousine</em>, service de location de limousine avec chauffeur, met à votre disposition des limousines américaines haut de gamme, de 9 mètres de long, blanches, pouvant accueillir jusqu’à 8 personnes, pour tous vos déplacements à Paris.
@@ -44,7 +44,7 @@ const QuiSommeNous = () => {
                         Nos chauffeurs répondent aux besoins d’une clientèle exigeante Disponibles, ponctuels, courtois, ils savent faire preuve de discrétion en toute circonstance
                       </p>
 
-                      <span>Multilingues et connaissant parfaitement Paris et la Région Parisienne</span>
+                      <span><u>Multilingues et connaissant parfaitement Paris et la Région Parisienne</u></span>
                     </div>
 
                     <div className="col-md-6">
