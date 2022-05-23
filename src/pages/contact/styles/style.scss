@@ -1,0 +1,23 @@
+.contact{
+
+    li{
+        display: list-item;
+        list-style-type: '-';
+    }
+
+    &__header{
+        background: url(../../../images/contact-us.png) no-repeat;
+        width: 100%;
+        height: calc(100vh - 253px);
+        background-position: center;
+        object-fit: cover;
+        background-size: cover;
+
+    }
+
+
+    &__content{
+        background: #fff;
+    }
+    
+}
