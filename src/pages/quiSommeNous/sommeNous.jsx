@@ -16,24 +16,41 @@ const QuiSommeNous = () => {
           <div className="container">
               <div className="nos__prestation">
                   <ChauffeurTaxi titre="QUI SOMMES NOUS" description="PHC LIMOUSINE" />
-
-                  <div className="prestation">
-
-                   
-                      
-                  </div>
               </div>
 
 
-              <section className="temoignages pb-4 text-center ">
-                  <div className="top flex-column">
-                    <img src="assets/forum.png" className='my-3' alt="forum" /> <br />
-                    <span>Notre dernier témoignage client !</span>
+              <section className="nous">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <p>
+                        <em className='fw-bold'>PHC Limousine</em>, service de location de limousine avec chauffeur, met à votre disposition des limousines américaines haut de gamme, de 9 mètres de long, blanches, pouvant accueillir jusqu’à 8 personnes, pour tous vos déplacements à Paris.
+                      </p>
+
+                      <p>
+                        Fondée en 2010 & une expérience de 17 ans dans le domaine et à pour objectif quotidien de toujours faire le maximum pour donner satisfaction en toute discrétion et réaliser avec succès les services.
+                      </p>
+
+                      <p>
+                        Professionnels reconnus, nos chauffeurs sont titulaires du permis dit « de Grande Remise (G.R.) », délivré par la préfecture de Police de Paris.
+                      </p>
+
+                      <p>
+                        Dans des limousines de luxe spacieuses et confortables, faites la fête sans contrainte et laissez-vous conduire en totale sécurité par les chauffeurs de <em className="fw-bold">PHC Limousine !</em>
+                      </p>
+
+                      <span className='fw-bold'>L’esprit de notre entreprise de limousine</span>
+
+                      <p>
+                        Nos chauffeurs répondent aux besoins d’une clientèle exigeante Disponibles, ponctuels, courtois, ils savent faire preuve de discrétion en toute circonstance
+                      </p>
+
+                      <span>Multilingues et connaissant parfaitement Paris et la Région Parisienne</span>
+                    </div>
+
+                    <div className="col-md-6">
+                      <img src="assets/agence.jpg" alt="" />
+                    </div>
                   </div>
-                  <p className="temoignage mt-3">
-                    "Nous avons fait appel à PHC LIMOUSINE pour notre mariage ! Service impécable et un chauffeur très agréable, ce qui à rendu en partie notre mariage exceptionnel ! Un grand merci à PHC LIMOUSINE. "
-                  </p>
-                  <span className='text-muted'>Martha.b</span>
               </section>
           </div>
       </div>
