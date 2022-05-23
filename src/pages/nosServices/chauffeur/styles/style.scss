@@ -1,12 +1,8 @@
 .chauffer{
 
-    li{
-        display: list-item;
-        list-style-type: '-';
-    }
 
     &__header{
-        background: url(../../../../images/mercedes-maybach-pullman.jpg) no-repeat;
+        background: url(../../../../images/2.jpg) no-repeat;
         width: 100%;
         height: calc(100vh - 103px);
         background-position: center;
@@ -15,21 +11,7 @@
 
     }
 
-    .tourisme {
-        padding-bottom: 6rem;
-
-        .img-container{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 5px;
-     
-            img{
-                width: 17em;
-            }
-         }
-    }
-
-
+   
     &__content{
         background: #fff;
     }

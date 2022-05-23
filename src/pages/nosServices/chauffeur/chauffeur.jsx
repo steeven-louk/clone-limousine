@@ -15,7 +15,7 @@ const Chauffeur = () => {
       <div className="chauffer__content">
           <div className="container">
               <div className="nos__prestation">
-                  <ChauffeurTaxi titre="Excursion touristique en limousine" description="Envie de vivre expérience ultraglamour ? Jouez la carte de la voiture avec chauffeur !" />
+                  <ChauffeurTaxi titre="Mise à disposition de chauffeur limousine" description="La mise à disposition peut être d’ordre privé ou professionnel !" />
 
               </div>
 
@@ -24,51 +24,51 @@ const Chauffeur = () => {
 
                     
                   <div className="col-md-6">
-                      <img src="assets/img_zoom4.jpg" width='100%' alt="" />
+                      <img src="assets/1.jpg" width='100%' alt="" />
                     </div>
 
                     <div className="col-md-6">
                       <p className='fw-bold'>
-                        Reserver une excursion sur mesure est le meilleur choix pour éviter les offres parfois trop commerciales ou marathons où vous risquez de passer plus de temps en voiture qu’à visiter un endroit.
+                        Vous avez un emploi du temps chargé et vous voulez tenir votre timing, vous pourrez alors compter sur la qualité de votre véhicule et de l’efficacité de votre chauffeur, tout en respectant vos limites budgétaires et bénéficier d’un tarif fixe et transparent :
                       </p>
 
-                      <p>
-                        Vous aimez visiter des musées, des châteaux et des lieux incroyables ?
-                      </p>
+                      <span className='fw-bold text-decoration-underline'>
+                          Réservation instantanée :
+                      </span> <br/> <br />
 
-                      <p>
-                        PHC LIMOUSINE vous emmène à bord de ses véhicules de luxe avec chauffeur et vous organise des séjours de dernières minutes selon vos envies, de l'insolite à l'offre all-inclusive.
-                      </p>
+                        <div className="d-flex flex-column">
+                        <span>
+                      Un numéro d'appel prioritaire et disponible 24H/7J
+                      </span>
 
-                      <p>
-                        Il est possible de reserver une excursion d’une journée pour avoir une vue globale Paris.
-                      </p>
+                      <span>
+                      Aucun frais d'abonnement ou de gestion.
+                      </span>
 
-                      <p>
-                        En solo, en couple, entre amis ou en famille, découvrez des places idylliques se prêtant parfaitement à un endroit de plaisir et de détente. 
-                      </p>
+                      <span>
+                      Quatre gammes de véhicules au choix, selon vos besoins et budget.
+                      </span>
+
+                      <span>
+                      Une qualité de prestation unique, quelque soit la gamme du véhicule choisi. 
+                      </span>
+                      <span>
+                      Votre fidélité récompensée. 
+                      </span>
+                      <span>
+                      "Concierge for You", Service exclusif réservé à nos adhérents. 
+                      </span>
+                        </div>
 
                     </div>
 
                   </div>
               </section>
 
-              <section className="tourisme">
-                <div className="img-container">
-                  <img src="assets/excursion/arc-de-triomphe.jpg" alt="," />
-                  <img src="assets/excursion/disneyland.jpg" alt="" />
-                  <img src="assets/excursion/ivalide.jpg" alt="" />
-                  <img src="assets/excursion/louvre.jpg" alt="" />
-                  <img src="assets/excursion/musee-orsay.jpg"  alt="" />
-                  <img src="assets/excursion/notre-dame.jpg"  alt="" />
-                  <img src="assets/excursion/sacre-coeur.jpg"  alt="" />
-                  <img src="assets/excursion/tour-eiffel.jpg"  alt="" />
-                </div>
-              </section>
 
               <section className="tarifs_location pb-5">
                   <div className="tarif border border-2 border-dark py-2">
-                    <h5 className="text-center text-decoration-underline">TARIFS LOCATION LIMOUSINE POUR EXCURSION TOURISTIQUE</h5>
+                    <h5 className="text-center text-decoration-underline text-uppercase">TARIFS LOCATION LIMOUSINE AVEC CHAUFFEUR - MISE A DISPOSITION</h5>
                   </div>
                   <img src="assets/limousine.png" width="100%"  alt="" />
               </section>
