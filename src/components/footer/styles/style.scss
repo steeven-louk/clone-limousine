@@ -1,0 +1,35 @@
+.footer{
+    
+    background: url(../../../images/mercedes-maybach-s600.jpg) no-repeat;
+    width: 100%;
+    height: calc(100vh - 163px);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    bottom: 0;
+    z-index: -5;
+    overflow: hidden;
+
+    &__coordonne{
+        position: absolute;
+        right: 8em;
+        top: 5em;
+        background: rgba(0, 0, 0, 0.603);
+        padding: 18px;
+        
+    }
+}
+
+.footer__bottom{
+    background: #000;
+    color: #fff;
+    padding-bottom: 30px;
+
+    img{
+        width: 15%;
+        object-fit: cover;
+        padding: 55px 0 25px;
+    }
+}

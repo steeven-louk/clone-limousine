@@ -1,0 +1,22 @@
+[
+    {
+        "img": "/assets/prestations/excursition.jpg",
+        "title": "Excursion touristique",
+        "desc": "Paris, Versailles, Deauville, les châteaux de la Loire… L’offre Excursion de Service Limo Car vous garantit un voyage découverte inoubliable aux côtés de nos chauffeurs, véritables professionnels et excellents guides."
+    },
+    {
+        "img": "/assets/prestations/aeroport.jpg",
+        "title": "Transfert Privé Aéroport",
+        "desc": "Accueil personnalisé, ponctualité, prise en charge des bagages, chauffeurs professionnels parlant votre langue… Service Limo Car optimise tous vos transferts aéroports en toute sérénité."
+    },
+    {
+        "img": "/assets/prestations/voiture-avec-chauffeur.jpg",
+        "title": "Chauffeur Privé à Disposition",
+        "desc": "Accueil, prise en charge, accompagnement d’ordre professionnel ou privé… Service Limo Car met à votre disposition véhicules et chauffeurs de quelques heures à plusieurs jours, selon votre planning et dans un souci d’optimisation de votre ..."
+    },
+    {
+        "img": "/assets/prestations/limousine-mariage.jpg",
+        "title": "Mariage",
+        "desc": "Votre mariage est un moment pour lequel vous attendez un service d’exception. L’offre Mariage de Service Limo Car vous garantit une totale sérénité et un instant de bonheur inoubliable."
+    }
+]
