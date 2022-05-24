@@ -1,21 +1,40 @@
 .navbar__component{
+    position: relative;
     background: #000;
+    transition: .4s all ease-in-out;
 
-    a{
-        color: rgb(161, 160, 160);
-        text-decoration: none;
 
-        &:active, &:hover{
-            color: #fff!important;
+    .ville {
+        padding-left: 20px;
+
+        h5{
+            margin: 0 10px;
         }
     }
 
+    a, .menu span{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:active, &:hover{
+            color: rgb(233, 18, 18)!important;
+        }
+
+       &:active{
+           color: green;
+       }
+    }
+
+    
 
     .navbar .navbar-brand{
 
         display: flex;
         flex-direction: row;
         align-items:center;
+        letter-spacing: 1px;
+        width: fit-content;
 
         img{
             width: 20%;
@@ -25,5 +44,52 @@
 
     }
 
+    .navbar-nav {
+
+
+        .menu {
+            position: relative;
+    
+            .sub-menu{
+                display: none;
+                position: absolute;
+                background: #000;
+                color: #fff;
+                width: 16em;
+                padding: 18px;
+                li{
+                    list-style-type: none;
+                }
+            }
+    
+            .show-menu{
+                display: block;
+                position: absolute;
+                background: #000;
+                color: #fff;
+                width: 16em;
+                padding: 18px;
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+
+    .scroll{
+        background: rgba(0, 0, 0, 0.918) !important;
+        position: fixed!important;
+        top: 0px!important;
+        width: 100%;
+        color: #fff!important;
+        transition: .4s all ease-in-out;
+        z-index: 5;
+    }
+
+    .hide_ville{
+        display: none;
+        visibility: hidden;
+        transition:  .4s all ease-in;
+    }
 
 }

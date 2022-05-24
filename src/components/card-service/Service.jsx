@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styles/style.scss";
 
+import { Link } from 'react-router-dom';
 
 const Services = ({card}) => {
   return (
@@ -13,7 +14,7 @@ const Services = ({card}) => {
                 <p className="desc">
                     {card.desc}
                 </p>
-                <a href="/">Plus d'informations</a>
+                <Link to={card.link}>Plus d'informations</Link>
             </div>
         </div>
           

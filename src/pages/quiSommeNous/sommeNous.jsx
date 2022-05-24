@@ -9,10 +9,10 @@ const QuiSommeNous = () => {
 
 
   return (
-    <div className='acceuil'>
-      <div className="acceuil__header"></div>
+    <div className='nous'>
+      <div className="nous__header"></div>
       
-      <div className="acceuil__content">
+      <div className="nous__content">
           <div className="container">
               <div className="nos__prestation">
                   <ChauffeurTaxi titre="QUI SOMMES NOUS" description="PHC LIMOUSINE" />
