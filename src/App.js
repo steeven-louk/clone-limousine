@@ -6,6 +6,7 @@ import Contact from './pages/contact/contact';
 import Chauffeur from './pages/nosServices/chauffeur/chauffeur';
 import Excursion from './pages/nosServices/excursion/excursion';
 import Mariage from './pages/nosServices/mariage/mariage';
+import Transfert from './pages/nosServices/transfert/transfert';
 import QuiSommeNous from './pages/quiSommeNous/sommeNous';
 import Reservation from './pages/reservation/reservation';
 
@@ -16,7 +17,7 @@ function App() {
         {/** <Acceuil />*/}
         {/**<QuiSommeNous />*/}
       { /** <Reservation /> */}
-      <Mariage />
+      <Transfert />
         <Footer />
     </div>
   );
