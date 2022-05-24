@@ -53,6 +53,19 @@ const Excursion = () => {
                   </div>
               </section>
 
+              <section className="tourisme">
+                <div className="img-container">
+                  <img src="assets/excursion/arc-de-triomphe.jpg" alt="," />
+                  <img src="assets/excursion/disneyland.jpg" alt="" />
+                  <img src="assets/excursion/ivalide.jpg" alt="" />
+                  <img src="assets/excursion/louvre.jpg" alt="" />
+                  <img src="assets/excursion/musee-orsay.jpg"  alt="" />
+                  <img src="assets/excursion/notre-dame.jpg"  alt="" />
+                  <img src="assets/excursion/sacre-coeur.jpg"  alt="" />
+                  <img src="assets/excursion/tour-eiffel.jpg"  alt="" />
+                </div>
+              </section>
+
               <section className="tarifs_location pb-5">
                   <div className="tarif border border-2 border-dark py-2">
                     <h5 className="text-center text-decoration-underline">TARIFS LOCATION LIMOUSINE POUR EXCURSION TOURISTIQUE</h5>
