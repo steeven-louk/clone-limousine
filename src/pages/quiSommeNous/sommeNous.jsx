@@ -18,7 +18,6 @@ const QuiSommeNous = () => {
                   <ChauffeurTaxi titre="QUI SOMMES NOUS" description="PHC LIMOUSINE" />
               </div>
 
-
               <section className="nous py-5">
                   <div className="row pb-5">
                     <div className="col-md-6">

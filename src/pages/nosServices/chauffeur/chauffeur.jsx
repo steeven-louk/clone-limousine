@@ -7,7 +7,6 @@ import { ChauffeurTaxi } from '../../../components/prestation';
 const Chauffeur = () => {
 
 
-
   return (
     <div className='chauffer'>
       <div className="chauffer__header"></div>
@@ -16,7 +15,6 @@ const Chauffeur = () => {
           <div className="container">
               <div className="nos__prestation">
                   <ChauffeurTaxi titre="Mise à disposition de chauffeur limousine" description="La mise à disposition peut être d’ordre privé ou professionnel !" />
-
               </div>
 
               <section className="py-5">

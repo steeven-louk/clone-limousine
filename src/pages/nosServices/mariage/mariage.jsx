@@ -16,7 +16,6 @@ const Mariage = () => {
           <div className="container">
               <div className="nos__prestation">
                   <ChauffeurTaxi titre="LOCATION LIMOUSINE - MARIAGE" description="En exclusivité et pour une très très courte durée" />
-
               </div>
 
               <section className="py-5">

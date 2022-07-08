@@ -7,7 +7,6 @@ import { ChauffeurTaxi } from '../../components/prestation';
 const Contact = () => {
 
 
-
   return (
     <div className='contact'>
       <div className="contact__header"></div>
@@ -16,7 +15,6 @@ const Contact = () => {
           <div className="container">
               <div className="nos__prestation">
                   <ChauffeurTaxi titre="NOUS CONTACTER" description="PHC LIMOUSINE" />
-
               </div>
 
               <section className="nous py-5">

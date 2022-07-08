@@ -16,7 +16,6 @@ const Excursion = () => {
           <div className="container">
               <div className="nos__prestation">
                   <ChauffeurTaxi titre="Excursion touristique en limousine" description="Envie de vivre expérience ultraglamour ? Jouez la carte de la voiture avec chauffeur !" />
-
               </div>
 
               <section className="py-5">
